@@ -18,10 +18,10 @@ public class MessageService {
 	
 	public MessageService(){
 		messages.put(1L, new Message(1L, "Hello World" , new Date() , "Harsh"));
-		messages.put(2L, new Message(2L, "Hello Folks" , new Date() , "Ravi"));
-		messages.put(3L, new Message(3L, "Hello India" , new Date() , "Akshat"));
-		messages.put(4L, new Message(4L, "Hello USA" , new Date() , "Rags"));
-		messages.put(5L, new Message(5L, "Hello UK" , new Date() , "Abdul"));
+		messages.put(2L, new Message(2L, "Hello Folks" , new Date() , "Pluto"));
+		messages.put(3L, new Message(3L, "Hello India" , new Date() , "Goofy"));
+		messages.put(4L, new Message(4L, "Hello USA" , new Date() , "Donald"));
+		messages.put(5L, new Message(5L, "Hello UK" , new Date() , "Mike"));
 	}
 	
 	
@@ -30,10 +30,10 @@ public class MessageService {
 		return new ArrayList<>(messages.values());
 
 		/*Message msg1 = new Message(1L, "Hello World" ,null, "Harsh");
-		Message msg2 = new Message(1L, "Hello Folks" ,null, "Ravi");
-		Message msg3 = new Message(1L, "Hello India" ,null, "Akshat");
-		Message msg4 = new Message(1L, "Hello USA" ,null, "Rags");
-		Message msg5 = new Message(1L, "Hello UK" ,null, "Abdul");
+		Message msg2 = new Message(1L, "Hello Folks" ,null, "Pluto");
+		Message msg3 = new Message(1L, "Hello India" ,null, "Goofy");
+		Message msg4 = new Message(1L, "Hello USA" ,null, "Donald");
+		Message msg5 = new Message(1L, "Hello UK" ,null, "Mike");
 		List<Message> list = new ArrayList<>();
 		list.add(msg1);
 		list.add(msg2);
