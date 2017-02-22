@@ -13,10 +13,10 @@ public class ProfileService {
 	
 	public ProfileService(){
 		profiles.put("HARSH", new Profile(1L, "HARSH", "HARSHVARDHAN", "VASHISHTHA"));
-		profiles.put("RAVI", new Profile(2L, "RAVI", "RAVI KUMAR", "JAIN"));
-		profiles.put("AKSHAT", new Profile(3L, "AKSHAT", "AKSHAT", "JINDAL"));
-		profiles.put("ABDUL", new Profile(4L, "ABDUL", "ABDUL WAJID", "NASAR"));
-		profiles.put("RAGS", new Profile(5L, "RAGS", "RAGS", "KHAN"));
+		profiles.put("PLUTO", new Profile(2L, "PLUTO", "PLUTO", ""));
+		profiles.put("GOOFY", new Profile(3L, "GOOFY", "GOOFY", ""));
+		profiles.put("DONALD", new Profile(4L, "DONALD", "DONALD", ""));
+		profiles.put("MIKE", new Profile(5L, "MIKE", "MIKE", ""));
 	}
 
 	public List<Profile> getProfiles(){
